@@ -1,3 +1,6 @@
+# Here we analyze the number of movie ratings, average ratings and number of ratings for that movie
+# The script focuses on using broadcast variables to ensure all the executors have a copy of the lookup movie names
+
 from pyspark.sql import SparkSession
 from pyspark.sql.types import StructType, StructField, StringType, FloatType
 import pyspark.sql.functions as fn
